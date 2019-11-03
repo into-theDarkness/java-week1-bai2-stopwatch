@@ -20,7 +20,7 @@ public class StopWatch {
     public long getElapsedTime(){
         Date endtime = this.getEndTime();
         Date starttime = this.getStartTime();
-        return endtime.get  Time() - starttime.getTime();
+        return endtime.getTime() - starttime.getTime();
     }
 
     public static void main(String[] args) {
